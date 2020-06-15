@@ -19,3 +19,6 @@ try: `npm -v`
 See: https://www.jetbrains.com/help/idea/developing-node-js-applications.html
 
 1. `npm install`
+
+1. Install express
+try: `npm install express --save`

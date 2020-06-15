@@ -14,5 +14,8 @@
     "mocha": "^8.0.1",
     "sinon": "^1.17.2",
     "superagent": "^5.2.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }

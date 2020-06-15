@@ -25,9 +25,9 @@ describe('server', function() {
 
         superagent.get('http://localhost:3000/foo').end(function(err, res) {
             if (err) {
-                assert.equal(err.message, 'Not Found');
-                assert.equal(res.status, 404);
-                assert.equal(res.text, 'Not Found');
+                assert.strictEqual(err.message, 'Not Found');
+                assert.strictEqual(res.status, 404);
+                assert.match(res.text, /Cannot GET \/foo/);
                 return done();
             }
 
