@@ -14,3 +14,9 @@ var server = app.listen(port, function () {
     var port = server.address().port
     console.log("Hello World app listening at http://%s:%s", host, port)
 })
+
+function stop() {
+    server.close();
+}
+
+module.exports.stop = stop;

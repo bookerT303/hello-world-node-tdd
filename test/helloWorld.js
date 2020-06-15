@@ -9,6 +9,10 @@ var server = require('../src/helloWorld');
 
 describe('server', function() {
 
+    after(async() => {
+        server.stop();
+    })
+
     it('should return Hello World at /', function( done ) {
 
         superagent.get('http://localhost:3000/').end(function(err, res) {
