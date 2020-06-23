@@ -1,4 +1,5 @@
 # Node.js with TDD example
+## Installation
 1. Install Node
 try: `brew install node`
 
@@ -22,3 +23,6 @@ See: https://www.jetbrains.com/help/idea/developing-node-js-applications.html
 
 1. Install express
 try: `npm install express --save`
+
+## Run the server
+try ` node src/helloWorld.js `

@@ -4,6 +4,7 @@
   "description": "Node.js Hello World with TDD example",
   "main": "helloWorld.js",
   "scripts": {
+    "start": "node src/helloWorld.js",
     "test": "./node_odules/mocha/bin/mocha test/"
   },
   "keywords": [],
