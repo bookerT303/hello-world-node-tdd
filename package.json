@@ -5,7 +5,7 @@
   "main": "helloWorld.js",
   "scripts": {
     "start": "node src/helloWorld.js",
-    "test": "./node_odules/mocha/bin/mocha test/"
+    "test": "./node_modules/mocha/bin/mocha test/"
   },
   "keywords": [],
   "author": "Brad Davidson",
